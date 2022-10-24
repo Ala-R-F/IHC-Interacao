@@ -1,0 +1,40 @@
+<html>
+    <head>
+         <title>Calculadora de Juros e Desconto</title>
+        <meta name="keywords" content="HTML">
+        <link rel="stylesheet" href="style.css">
+        <script src ="script.js"> </script>
+    </head>
+    <body>
+        <table align="center">
+            <tr>
+                <td class="any">
+                    <label for="valor">Digite o Valor: <input type="text" id="valor"></label>
+                </td>
+                <td class="any">
+                    <label for="valor">Cálculo com:</label>
+                </td>
+                <td>
+                    <color="magenta"><input type="radio" name="tip" id="jur" value="jur" onchange="calculaGeral()">Juros
+                </td>
+                <td>
+                    <color="magenta"><input type="radio" name="tip" id="desc" value="desc" onchange="calculaGeral()">Desconto
+                </td>
+            </tr>
+            <tr>
+            <td><color="magenta"><input type="radio" name="porc" id="10"
+           value="10" onchange="calculaGeral()">10% do valor</td>
+            <td><color="magenta"><input type="radio" name="porc" id="20"
+           value="20" onchange="calculaGeral()">20% do valor</td>
+            <td><color="magenta"><input type="radio" name="porc" id="30"
+           value="30" onchange="calculaGeral()">30% do valor</td>
+            </tr>
+            <tr>
+            <td><label for="porcentagem" class="porcentagem">Porcentagem desse Valor:
+           </label></td>
+            <td><input type="text" id="final" class="final" readonly></td>
+            </tr>
+            <table>
+            </footer>
+            </body>
+           </html>

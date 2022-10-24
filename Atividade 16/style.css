@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+     text-align: center;
+}
+
+
+.any {
+     background-color:lightblue;
+     color:red;
+     text-align:center;
+     padding:5px;
+     font-weight: bold;
+}
+
+footer {
+     background-color:lightblue;
+     color:white;
+     clear:both;
+     text-align:center;
+     padding:5px;
+     font-weight: bold;
+}
+
+label.porcentagem {
+     color:indigo;
+     font-weight: bold;
+}
+
+input.porcentagem {
+     background-color:lightblue;
+      font-weight: bold;
+     font-size: 15px;
+}
