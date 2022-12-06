@@ -1,0 +1,147 @@
+<html>
+   <head>
+      <title>GUI com Barra de Menus</title>
+      <link rel="StyleSheet" href="menu.css">
+      <script language="javascript" src="menu.js"></script>
+   </head>
+   <body>
+      <table class="navbar"  width="115">
+         <tr>
+            <td class="menuNormal" width="120" onmouseover="abrir(this);" onmouseout="fechar(this);">
+               <p>Arquivo</p>
+               <div class="menuNormal" width="115">
+                  <table class="menu" width="115">
+
+                     <tr>
+                        <td class="menuNormal">
+                           <a href="javascript:alert('Você executou o comando Novo!');" class="menuitem"><img src="MenuNovo.gif"> Novo 
+                           <span class="teclado"> Ctrl+N</span>
+                           </a>
+                        </td>
+                     </tr>
+
+                     <tr>
+                        <td class="menuNormal">
+                           <a href="javascript:alert('Você executou o comando Abrir!');" class="menuitem"><img src="MenuAbrir.gif"> Abrir
+                           <span class="teclado"> Ctrl+A</span>
+                           </a>
+                        </td>
+                     </tr>
+
+                     <tr>
+                        <td class="menuNormal" width="114" onmouseover="abrir(this);" onmouseout="fechar(this);">Salvar ...
+                           <div class="menuNormal" width="110">
+                              <table class="menu" width="110">
+                                 <tr>
+                                    <td class="menuNormal">
+                                       <a href="javascript:alert('Você executou o comando Salvar!');" class="menuitem"><img src="MenuSalvar.gif"> Salvar
+                                        <span class="teclado"> Ctrl+S</span>
+                                        </a>
+                                    </td>
+                                 </tr>
+                                
+                                 <tr>
+                                    <td class="menuNormal">
+                                       <a href="javascript:alert('Você executou o comando Salvar Como!');" class="menuitem">Salvar como
+                                        <span class="teclado"> Ctrl+C</span>
+                                        </a>
+                                    </td>
+                                 </tr>
+
+                                 <tr>
+                                    <td class="menuNormal">
+                                       <a href="javascript:alert('Você executou o comando Salvar tudo!');" class="menuitem">Salvar tudo
+                                        <span class="teclado"> Ctrl+T</span>
+                                        </a>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div>
+                           
+                        </td>
+                     </tr>
+
+                     <tr>
+                        <td class="menuNormal">
+                           <hr>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="menuNormal">
+                           <a href="javascript:alert('Você executou o comando Sair!');" class="menuitem">Sair
+                            <span class="teclado"> Ctrl+R</span>
+                            </a>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </td>
+            <td class="menuNormal" width="120" onmouseover="abrir(this);" onmouseout="fechar(this);">
+                <p>Editar</p>
+                <div class="menuNormal" width="115">
+                   <table class="menu" width="115">
+                      <tr>
+                         <td class="menuNormal">
+                            <a href="javascript:alert('Você executou o comando Desfazer!');" class="menuitem"><img src="Desfazer.GIF"> Desfazer
+                            <span class="teclado"> Ctrl+D</span>
+                            </a>
+                         </td>
+                      </tr>
+                      <tr>
+                         <td class="menuNormal">
+                            <a href="javascript:alert('Você executou o comando Refazer!');" class="menuitem"><img src="Refazer.gif"> Refazer
+                            <span class="teclado"> Ctrl+F</span>
+                            </a>
+                         </td>
+                      </tr>
+
+                      <tr>
+                         <td class="menuNormal">
+                            <hr>
+                         </td>
+                      </tr>
+
+                      <tr>
+                         <td class="menuNormal">
+                            <a href="javascript:alert('Você executou o comando Recortar!');" class="menuitem"><img src="Recortar.GIF">Recortar
+                            <span class="teclado"> Ctrl+E</span>
+                            </a>
+                         </td>
+                      </tr>
+                      <tr>
+                         <td class="menuNormal">
+                            <a href="javascript:alert('Você executou o comando Copiar!');" class="menuitem"><img src="Copiar.GIF">Copiar</a>
+                            <span class="teclado"> Ctrl+P</span>
+                            </a>
+                         </td>
+                      </tr>
+                      <tr>
+                         <td class="menuNormal">
+                            <a href="javascript:alert('Você executou o comando Colar!');" class="menuitem"><img src="Colar.GIF">Colar
+                            <span class="teclado"> Ctrl+O</span>
+                            </a>
+                         </td>
+                      </tr>
+
+                      <tr>
+                        <td class="menuNormal">
+                           <hr>
+                        </td>
+                     </tr>
+
+                     <tr>
+                        <td class="menuNormal">
+                           <a href="javascript:alert('Você executou o comando Localizar!');" class="menuitem"><img src="Localizar.GIF">Localizar
+                            <span class="teclado"> Ctrl+L</span>
+                            </a>
+                        </td>
+                     </tr>
+
+                   </table>
+                </div>
+             </td>
+
+         </tr>
+      </table>
+   </body>
+</html>
