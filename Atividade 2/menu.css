@@ -1,0 +1,93 @@
+
+body{
+    font-family: verdana, tahoma, arial, sans-serif;
+    font-size: 10pt;
+    margin: 0px;
+    background-color: darkseagreen;
+    padding: 0px;
+ }
+
+ p{
+    padding-top: 10px;
+    margin: 0px;
+ }
+
+ .teclado{
+    font-size: 6pt;
+    color: darkgray;
+
+ }
+ 
+ table.navbar{
+    font-size: 8pt;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 5px; 
+    border: 0px; 
+    font-weight: bold;
+    background-color:whitesmoke;
+ }
+
+ table.menu{
+    font-size: 8pt;
+    margin: 0px;
+    margin-left: 10px; 
+    padding: 0px;
+    font-weight: bold;
+ }
+
+ td.menuNormal{
+    padding: 0px;
+    color: black;
+    font-weight: bold;
+    vertical-align: middle;
+    background-color: whitesmoke;
+ }
+
+ td.menuHover{
+    padding: 0px;
+    color: black;
+    font-weight: bold;
+    vertical-align: middle;
+    background-color: lightblue;
+ }
+
+ div.menuNormal{
+    display: none;
+    position: static;
+ }
+
+ div.menuHover{
+    border: 1px solid lightblue;
+    background-color: whitesmoke;
+    display: inline;
+    position: absolute;
+ }
+
+ a.menuitem:link{
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    display: block;
+ }
+
+ a.menuitem:visited{
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    display: block;
+ }
+
+ a.menuitem:hover{
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    display: block;
+ }
+
+ a.menuitem:active{
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    display: block;
+ }
